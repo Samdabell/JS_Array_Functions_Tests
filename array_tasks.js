@@ -49,7 +49,6 @@ var arrayTasks = {
 	},
 
 	sumOfAllEvenNumbersSquared: function (arr) {
-		var total = 0;
 		var evenValues = arr.filter(function(value){
 			return value % 2 === 0;
 		});
